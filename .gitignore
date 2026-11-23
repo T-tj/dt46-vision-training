@@ -1,0 +1,44 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]      # 屏蔽 .pyc, .pyo, .pyd
+*$py.class
+*.so
+.Python
+venv/
+.env/
+env/
+.venv/
+build/
+dist/
+*.egg-info/
+.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ===== video =====
+*.mp4
+*.avi
+output_*.mp4
+sandbox/output/
+
+# ===== model =====
+*.pt
+
+# ===== 常见图片格式扩展 =====
+*.png
+*.jpeg
+*.webp
+*.jpg
+!docs/*.png
+
+# ===== YOLO 训练/推理默认输出目录 =====
+runs/
+weights/
+
+# ===== 系统/IDE/日志杂项 =====
+.vscode/
+Thumbs.db
+.DS_Store
+*.log
